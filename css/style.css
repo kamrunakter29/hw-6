@@ -1,0 +1,290 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ol,ul{
+    list-style:none;
+}
+.container{
+    width:1170px;
+    margin:auto;
+
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family:'open sans'sans-serif;
+}
+
+.row{
+    text-wrap:wrap ;
+    display: flex;
+    
+}
+.button{
+    color:#0b1016;
+    width:200px;
+    height:53px;
+    background-color:#cfc91d;
+    padding:19px 42px;
+    font-size:14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family:open sans;
+
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    color:#065d59;
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 800;
+    font-family:open sans, sans-serif;
+    
+}
+.heading p{
+    color:#cbcdcf;
+    font-size:16px;
+}
+/* nav starts */
+nav{
+    background-color:#065d59;
+    width:1280px;
+    height:60px;
+}
+nav .row{
+    align-items:center;
+
+}
+nav.logo{
+    width:30%;
+}
+nav .menu{
+    text-align: right;
+    width:70%;
+}
+nav .menu li{
+    display: inline-block;
+}
+nav .menu li a{
+    padding:26px 25px;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size:12px;
+    display: block;
+}
+/* nav ends */
+/* banner starts */
+#banner{
+    background-image: url(./../html/banner.jpg);
+    height:728px;
+    background-size: cover;
+    background-position:center;
+
+}
+.bannercontact{
+    width:100%;
+    text-align: center;
+
+}
+
+#banner .row{
+    height:728px;
+    align-items: center;
+}
+.bannercontact h3{
+    color:white;
+    font-size:24px;
+    font-weight: 400;
+    word-spacing:2px;
+    
+}
+.bannercontact h1{
+    font-size:68px;
+    font-weight:800;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing:25px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.bannercontact p{
+    color:white;
+}
+.bannercontact img{
+    margin:50px 0;
+}
+.bannercontact a{
+    word-spacing:5px;
+}
+/* banner ends */
+/* about start */
+#about{
+    padding:98px 0;
+}
+ .aboutcard{
+    padding-left:140px;
+    padding-right:140px;
+    margin-top:30px;
+    color:#989a9c;
+    text-align: center;
+    
+ }
+ .aboutcard span{
+    font-size:20px;
+    color:#626569;
+    font-weight: 200;
+    text-transform: lowercase;
+ }
+ .aboutcard2{
+    width:25%;
+    margin-top:138px;
+    padding-left:110px ;
+    line-height:21px;
+
+ }
+ .aboutcard2 h3{
+    color:#64666a;
+    margin-bottom:20px;
+    font-family:open sans;
+    font-size:16px;
+    text-align: center;
+ }
+ .aboutcard2 p{
+    color:#989a9c;
+    text-align: center;
+    font-size:11px;
+
+ }
+ /* about ends */
+ /* services start */
+ #services{
+    background-color: #f0f0e8;
+    height:724px;
+    width:600px;
+ }
+   
+ #services .heading{
+    text-align: left;
+    padding-left:62px;
+
+    
+ }
+ .servicescard{
+    padding-left:62px;
+    color:#989a9c;
+
+ }
+ .servicescard2{
+    width:50%;
+    margin-top:138px;
+    height:61px;
+    padding-right:79px;
+    padding-left:62px;
+ }
+ .servicescard2 h3{
+    color:#64666a;
+    margin-bottom:20px;
+    font-family:open sans;
+    font-size:16px;
+    }
+
+.servicescard2 p{
+    color:#989a9c;
+    font-size:12px;
+
+}
+#images{
+    background-image: url(./../html/images.png);
+     background-position:right;
+     background-size: cover;
+      
+}
+/* services ends */
+/* work section start */
+.workcard{
+        color:#989a9c;
+        padding:0 300px;
+    
+}
+.workcard p{
+    text-align: center;
+    padding-bottom:45px;
+}
+/* work section ends */
+/* images start */
+#imagesource{
+    height: 477px;
+}
+.images1{
+    background-image:url(./../html/Image\ \(5\).png);
+    background-size:cover;
+    width:400px;
+    height:209px;
+}
+.images2{
+    background-image:url(./../html/Image\ \(14\).png);
+    background-size:cover;
+    width:400px;
+    height:209px;
+}
+.images3{
+    background-image:url(./../html/Image\ \(17\).png);
+    background-size:cover;
+    width:400px;
+    height:209px;
+}.images4{
+    background-image:url(./../html/Image\ \(11\).png);
+    background-size:cover;
+    width:400px;
+    height:209px;
+}
+.images5{
+    background-image:url(./../html/Layer\ 9.png);
+    background-size:cover;
+    width:400px;
+    height:209px;
+}
+.images6{
+    background-image:url(./../html/Image\ \(13\).png);
+    background-size:cover;
+    width:400px;
+    height:209px;
+}
+.images7{
+    background-image:url(./../html/Image\ \(2\).png);
+    background-size:cover;
+    width:400px;
+    height:209px;
+}
+.images8{
+    background-image:url(./../html/Image.png);
+    background-size:cover;
+    width:400px;
+    height:209px;
+}
+/* images ends */
+#contact{
+    height:310px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
